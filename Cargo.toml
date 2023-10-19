@@ -1,0 +1,8 @@
+[package]
+name = "ubl"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+ahash = "0.8.3"
+smallvec = { version = "1.11.1", features = ["const_generics", "union"] }
